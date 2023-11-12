@@ -1,7 +1,7 @@
-import { Model, Schema, model } from "mongoose";
-import { IUser } from "./users.interface";
+import { Schema, model } from "mongoose";
+import { IUser, UserModel } from "./user.interface";
 
-type UserModel = Model<IUser, Record<string, unknown>>
+
 
 const userSchema = new Schema<IUser>(
     {
@@ -12,11 +12,11 @@ const userSchema = new Schema<IUser>(
         },
         role: {
             type: String,
-            // required: true
+            required: true
         },
         password: {
             type: String,
-            // required: true
+            required: true
         },
     },
     {

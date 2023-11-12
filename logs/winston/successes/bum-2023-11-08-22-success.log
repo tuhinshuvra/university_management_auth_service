@@ -22,3 +22,15 @@
   label: 'Bangla University Management',
   timestamp: '2023-11-08T16:05:34.275Z'
 }
+{
+  message: 'Database is connected successfully!',
+  level: 'info',
+  label: 'Bangla University Management',
+  timestamp: '2023-11-08T16:08:19.681Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'Bangla University Management',
+  timestamp: '2023-11-08T16:08:19.700Z'
+}
