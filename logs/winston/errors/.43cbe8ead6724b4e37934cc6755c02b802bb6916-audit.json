@@ -24,6 +24,21 @@
             "date": 1699492342737,
             "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\errors\\bum-2023-11-09-07-error.log",
             "hash": "b2f98c14e257e908becf6ddf7a449035ab7dec0b9c4a3ad7e9a62c38fc4d952c"
+        },
+        {
+            "date": 1699753391203,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\errors\\bum-2023-11-12-07-error.log",
+            "hash": "6451ab50989eae75d0573e952b63cb1ed0b19fc2cae4907e6f28aad5d5ceef42"
+        },
+        {
+            "date": 1699754543525,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\errors\\bum-2023-11-12-08-error.log",
+            "hash": "3637e81d582deef59046799813bd4519ebd28597840221a350bf6d9f4ae8ffdf"
+        },
+        {
+            "date": 1699841237361,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\errors\\bum-2023-11-13-08-error.log",
+            "hash": "3844c8d594abd146ce15177be036dc0e354b0f6857cb0733d8564f245ad95438"
         }
     ],
     "hashType": "sha256"

@@ -1,18 +1,16 @@
 import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import usersRouter from './app/modules/users/users.route'
 import globalErrorHandlar from './app/middlewares/globalErrorHandler';
+import { UserRoutes } from './app/modules/users/user.route';
 
 const app: Application = express();
-// const port = 3000; 
-
 app.use(cors())
 
 // parser
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use('/api/v1/users', usersRouter)
+app.use('/api/v1/users', UserRoutes)
 
 class ApiError extends Error {
     statusCode: number;
@@ -32,18 +30,11 @@ class ApiError extends Error {
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
     // res.send('Welcome to University Management Auth Service!')
     // throw new ApiError(400, "Ore babare error")
-    next('Ore Babare Error khaice!')
+    // next('Ore Babare Error khaice!')
+    Promise.reject(new Error('Unhaled Promise Rejection'))
 })
 
 // global error handler
-app.use((error, req: Request, res: Response, next: NextFunction) => {
-    if (error instanceof Error) {
-        res.status(400).json({ error: error })
-    } else {
-        res.status(500).json({ error: "Something went wrong" })
-    }
-})
-
 app.use(globalErrorHandlar)
 
 
