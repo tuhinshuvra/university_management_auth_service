@@ -2,7 +2,7 @@ import { Schema, model } from "mongoose";
 import { IAcademicSemister, AcademicSemisterModel } from "./academicSemister.Interface";
 import { academicSemisterCodes, academicSemisterMonths, academicSemisterTitles } from "./academicSemister.Conostant";
 import ApiError from "../../../errors/ApiError";
-import status from 'http-status';
+import httpStatus from 'http-status';
 
 const academicSemisterSchema = new Schema<IAcademicSemister>(
     {
@@ -40,7 +40,7 @@ academicSemisterSchema.pre('save', async function (next) {
     const isExist = await AcademicSemister.findOne({ title: this.title, year: this.year });
 
     if (isExist) {
-        throw new ApiError(status.CONFLICT, "Academic semister is already exist !");
+        throw new ApiError(httpStatus.CONFLICT, "Academic semister is already exist !");
     }
 
     next();

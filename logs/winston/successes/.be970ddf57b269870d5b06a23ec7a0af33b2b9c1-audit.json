@@ -64,6 +64,26 @@
             "date": 1700100310051,
             "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\successes\\bum-2023-11-16-08-success.log",
             "hash": "4da5395aa48f624f050108f320f94a1fee1e6047c2d44680e5daf37c1e644411"
+        },
+        {
+            "date": 1700192772042,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\successes\\bum-2023-11-17-09-success.log",
+            "hash": "08a0b0c7643e286560cb42b0b08fdee24f2fa3709af38225feb463982503e3aa"
+        },
+        {
+            "date": 1700195309346,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\successes\\bum-2023-11-17-10-success.log",
+            "hash": "a704874eedc0ca339c3fa9929f977615173f8ba863e3fa8a06d9459760a7ee42"
+        },
+        {
+            "date": 1700197376093,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\successes\\bum-2023-11-17-11-success.log",
+            "hash": "31ab280c12af6016bf1b81ef1f105be80b5e9bc2b3396f779e098aabbce046fb"
+        },
+        {
+            "date": 1700206239359,
+            "name": "D:\\01.ProgrammingHeroLevelTwo\\universityManagementAuthService\\logs\\winston\\successes\\bum-2023-11-17-13-success.log",
+            "hash": "fbedbc812918c18aacd8abb32bffc1e9edc082c036ba215ebc7cd561706f16c2"
         }
     ],
     "hashType": "sha256"
