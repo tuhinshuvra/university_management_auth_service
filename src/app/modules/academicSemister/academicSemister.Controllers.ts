@@ -8,14 +8,14 @@ const createSemister = catchAsync(async (req: Request, res: Response, next: Next
     const { ...academicSemisterData } = req.body;
     const result = await AcademicSemisterService.createSemister(academicSemisterData)
 
-    next();
-
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,
         message: 'Academic semister is created successfully!',
         data: result,
     });
+
+    next();
 });
 
 export const AcademicSemisterController = {
