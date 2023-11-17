@@ -2,35 +2,35 @@
   message: 'Database is connected successfully!',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:07:18.893Z'
+  timestamp: '2023-11-16T02:05:12.778Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:07:18.904Z'
+  timestamp: '2023-11-16T02:05:12.812Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:34:33.213Z'
+  timestamp: '2023-11-16T02:19:51.269Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:34:33.237Z'
+  timestamp: '2023-11-16T02:19:51.303Z'
 }
 {
   message: 'Database is connected successfully!',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:34:41.014Z'
+  timestamp: '2023-11-16T02:22:24.961Z'
 }
 {
   message: 'Application listening on port 5000',
   level: 'info',
   label: 'Bangla University Management',
-  timestamp: '2023-11-13T02:34:41.035Z'
+  timestamp: '2023-11-16T02:22:24.980Z'
 }

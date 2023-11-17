@@ -1,7 +1,7 @@
 import config from "../../../config/index";
 import ApiError from "../../../errors/ApiError";
 import { IUser } from "./user.interface";
-import { User } from "./user.models";
+import { User } from "./users.models";
 import { generatedUserId } from "./user.utils";
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
